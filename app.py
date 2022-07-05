@@ -2,10 +2,10 @@
 import conexion
 import querys as q
 
-exec(open("conexion.py").read())
+exec(open("conexion.py").read())#auto-ejecuta el fichero conexion.py
 
 #conexion=sqlite3.connect("bd1.db")
-
+"""
 print("insertar pelicula")
 
 titulo = input("Ingresar titulo: ")
@@ -19,8 +19,7 @@ sinopsis = input("Ingresar Sinopsis: ")
 
 q.insert(titulo, direccion, produccion, musica, pais, anio, genero, sinopsis)
 
-conexion.commit()
-
+"""
 
 print("Listar peliculas")
 
